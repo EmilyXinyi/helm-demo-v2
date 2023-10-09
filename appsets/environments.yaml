@@ -32,7 +32,7 @@ spec:
         targetRevision: HEAD
         path: 'env/{{values.path}}'
       destination:
-        server: '{{server}}'
+        name: '{{name}}'
         namespace: 'kd-{{values.path}}'
       # syncPolicy:
       #   automated:
