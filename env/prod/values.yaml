@@ -7,8 +7,3 @@ extraArgs:
   - --enable-skip-login
   - --enable-insecure-login
   - --namespace=kd-prod
-datadog:
-  ...
-  logs:
-    enabled: true
-    containerCollectAll: true
