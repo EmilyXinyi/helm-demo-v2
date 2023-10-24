@@ -25,6 +25,8 @@ spec:
   template:
     metadata:
       name: 'kd-{{values.path}}-{{name}}'
+      annotations:
+        ad.datadoghq.com/kubernetes-dashboard.logs: '[{"source":"kubernetes-dashboard","service":"kubernetes-dashboard"}]'
     spec:
       project: demo
       source:
