@@ -27,5 +27,5 @@ patches:
   - path: wave-3.yaml
     target:
       name: v1beta1.metrics.k8s.io
-# resources:
-#   - rollout.yaml
+resources:
+  - rollout.yaml
