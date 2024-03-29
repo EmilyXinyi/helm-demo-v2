@@ -9,15 +9,15 @@ helmCharts:
     releaseName: prod
     namespace: kd-prod
 patches:
-  # - target:
-  #     kind: Deployment
-  #     name: prod-kubernetes-dashboard
-  #   patch: |
-  #     $patch: delete
-  #     apiVersion: apps/v1
-  #     kind: Deployment
-  #     metadata:
-  #       name: DOES NOT MATTER
+  - target:
+      kind: Deployment
+      name: prod-kubernetes-dashboard
+    patch: |
+      $patch: delete
+      apiVersion: apps/v1
+      kind: Deployment
+      metadata:
+        name: DOES NOT MATTER
   - path: wave-1.yaml
     target:
       name: prod-metrics-server
