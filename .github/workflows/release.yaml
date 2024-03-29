@@ -35,7 +35,7 @@ jobs:
         name: Sleep for 10 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '10s'
+          time: '9s'
       -
         uses: mikefarah/yq@master 
       -
