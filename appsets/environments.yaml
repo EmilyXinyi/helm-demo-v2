@@ -28,7 +28,7 @@ spec:
       annotations:
         ad.datadoghq.com/kubernetes-dashboard.logs: '[{"source":"kubernetes-dashboard","service":"kubernetes-dashboard"}]'
     spec:
-      project: demo
+      project: akp-helm-demo
       source:
         repoURL: https://github.com/dhpup/helm-demo-v2.git
         targetRevision: HEAD
