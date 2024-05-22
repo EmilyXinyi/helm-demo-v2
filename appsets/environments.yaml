@@ -37,10 +37,7 @@ spec:
         name: '{{name}}'
         namespace: 'kd-{{values.path}}'
       syncPolicy:
-        automated:
-          prune: true
+        # automated:
+        #   prune: true
         syncOptions:
         - CreateNamespace=true
-      ignoreApplicationDifferences:
-        - jsonPointers:
-            - /spec/syncPolicy
