@@ -43,4 +43,4 @@ spec:
         - CreateNamespace=true
       ignoreApplicationDifferences:
         - jsonPointers:
-          - /spec/syncPolicy
+            - /spec/syncPolicy
